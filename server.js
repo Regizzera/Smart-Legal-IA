@@ -58,7 +58,7 @@ app.post('/generate-petition', async (req, res) => {
         res.json({ petition: responseText });
     } catch (error) {
         console.error('Error generating petition:', error);
-        res.status(500).send('Error generating petition');
+        res.status(500).send('Error generating petition');\
     }
 });
 

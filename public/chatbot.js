@@ -155,12 +155,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    nomeCliente,
-                    nomeReu,
-                    tipoAcao,
-                    motivoAcao,
-                    pedidosAutor,
-                    outrasInformacoes
+                    nomeCliente, cpfCnpjCliente, enderecoCliente, profissaoCliente, estadoCivil,
+        dataOcorrido, cidadePeticao, justiçaGratuita,
+        nomeReu, cpfCnpjReu, enderecoReu, tipoAcao, motivoAcao,
+        pedidosAutor, outrasInformacoes
                 }),
             });
 
